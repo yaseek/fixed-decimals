@@ -1,0 +1,24 @@
+{
+  "name": "fixed-decimals",
+  "version": "0.0.1",
+  "description": "Implementation of the fixed decimals based on the built-in BigInt",
+  "main": "src/index.ts",
+  "repository": "https://github.com/yaseek/fixed-decimals.git",
+  "author": "Andrew Babkin <ab@izh.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@jest/globals": "^29.6.2",
+    "jest": "^29.6.2",
+    "ts-jest": "^29.1.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.8"
+  },
+  "dependencies": {
+    "@types/jest": "^29.5.3"
+  }
+}
